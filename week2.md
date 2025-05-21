@@ -3,7 +3,7 @@
 ## Abstract
 A univariate descriptive analysis was conducted on a synthetic sample of 50 university students to illustrate the application of nominal, ordinal, and ratio-level statistics in educational research. Frequency distributions were generated for gender, US status, race, academic year, and satisfaction levels. Summary measures—including mean, median, mode, standard deviation, variance, and skewness—were calculated for GPA and study hours. Additional analyses included outlier detection via the 1.5×IQR rule and an exploration of ordinal–ratio relationships. Findings indicated a predominantly female, domestic cohort with balanced racial representation; GPA scores were approximately normally distributed with a mean of 3.12, while study hours exhibited slight positive skew. Academic year positively correlated with GPA and satisfaction. This paper underscores the necessity of matching statistical techniques to variable types and reflects on limitations inherent in synthetic data.
 
-**Keywords:** univariate analysis, descriptive statistics, educational research, APA 7
+**Keywords:** univariate analysis, descriptive statistics
 
 ---
 
