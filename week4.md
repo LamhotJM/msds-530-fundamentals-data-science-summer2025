@@ -1,27 +1,16 @@
-[Week 2: Descriptive Statistical Profiling of Student Performance: A Sample Cohort Analysis](week2.md)
-
-````markdown
 ---
 title: "Probabilistic Analysis of Open‐Source Test‐Automation Repositories"
 author: "Lamhot Jepri Manarihon Siagian"
+affiliation: "Department of IT, University of the Cumberlands"
+course: "Fundamentals of Data Science (MSDS-530-M40)"
+instructor: "Christian Youngblood"
 date: "June 1, 2025"
 ---
 
-# Probabilistic Analysis of Open‐Source Test‐Automation Repositories
-
-<div align="center">
-**Lamhot Jepri Manarihon Siagian**  
-**Affiliation:** Department of IT, University of the Cumberlands  
-**Course:** Fundamentals of Data Science (MSDS-530-M40)  
-**Instructor:** Christian Youngblood  
-**June 1, 2025**
-</div>
-
----
 
 ## Introduction
 
-Probabilistic statistics provides a systematic framework for analyzing datasets that combine categorical (qualitative) attributes with numerical (quantitative) measures. In this research, I examine a curated list of 24 prominent open‐source test‐automation repositories (e.g., Playwright, Detox, RobotFramework), focusing on two qualitative variables—**API Support** (Yes/No/Partial) and **Mobile Support** (Yes/No/Partial)—and two quantitative variables—**Star Count** and **Fork Count**. By applying fundamental probability rules, conditional probabilities, and Bayes’ theorem, I aim to extract actionable insights that inform decision‐making processes in software engineering contexts (Ross, 2014). Specifically, I compute category probabilities, evaluate event probabilities involving quantitative thresholds, derive conditional probabilities between features, and apply Bayes’ theorem to update beliefs. Ultimately, this research illustrates how probabilistic reasoning can guide practitioners in selecting appropriate tools based on feature availability and popularity metrics.
+Probabilistic statistics provides a systematic framework for analyzing datasets that combine categorical (qualitative) attributes with numerical (quantitative) measures. In this research, I examine a curated list of 24 prominent open‐source test‐automation repositories (e.g., Playwright, Detox, RobotFramework), focusing on two qualitative variables,API Support (Yes/No/Partial) and Mobile Support (Yes/No/Partial), and two quantitative variables, Star Count and Fork Count. By applying fundamental probability rules, conditional probabilities, and Bayes’ theorem, I aim to extract actionable insights that inform decision‐making processes in software engineering contexts (Ross, 2014). Specifically, I compute category probabilities, evaluate event probabilities involving quantitative thresholds, derive conditional probabilities between features, and apply Bayes’ theorem to update beliefs. Ultimately, this research illustrates how probabilistic reasoning can guide practitioners in selecting appropriate tools based on feature availability and popularity metrics.
 
 ---
 
@@ -29,7 +18,7 @@ Probabilistic statistics provides a systematic framework for analyzing datasets 
 
 ### 1.1 Probability Distribution of a Qualitative Variable
 
-To begin, I consider the qualitative variable **API Support**, which assumes three categories: “Yes,” “No,” and “Partial.” Out of the 24 repositories under study, the observed frequencies are as follows:
+To begin, I consider the qualitative variable API Support, which assumes three categories: “Yes,” “No,” and “Partial.” Out of the 24 repositories under study, the observed frequencies are as follows:
 
 * **API Support = Yes**: 13  
 * **API Support = No**: 10  
@@ -234,7 +223,7 @@ print("P(API Support = No) =", round(prob_api_no, 3))
 print("P(API Support = Partial) =", round(prob_api_partial, 3))
 
 # Data setup: Quantitative thresholds (Star Count and Fork Count)
-# For demonstration, assume I have a list of tuples: (stars, forks)
+# For demonstration, assume we have a list of tuples: (stars, forks)
 repos = [
     (73034, 4192),
     (11483, 1926),
@@ -299,6 +288,7 @@ P_R_given_Q = P_R_and_Q / P_Q
 print("\nP(Mobile=Yes | API=Yes) =", round(P_R_given_Q, 3))
 
 # 2.2 Conditional Probability for Quantitative Variables
+P_A_and_B = P_A_and_B  # from earlier calculation
 P_A_given_B = P_A_and_B / P_B
 print("P(Stars>10000 | Forks>2000) =", round(P_A_given_B, 3))
 
@@ -309,8 +299,6 @@ P_Q_given_M = (P_M_given_Q * P_Q) / P_M
 
 print("\nP(API=Yes | Mobile=Yes) =", round(P_Q_given_M, 3))
 ````
-
----
 
 ## Appendix: Repository Data CSV
 
@@ -340,7 +328,4 @@ OpenTest,1300,300,Yes,Yes,No,Yes,https://github.com/mcdcorp/opentest
 Postman,27000,1900,Yes,No,No,No,https://github.com/postmanlabs/newman
 SoapUI,1700,1400,Yes,No,No,No,https://github.com/SmartBear/soapui
 Carina,1500,400,Yes,Yes,No,Yes,https://github.com/zebrunner/carina
-```
-
-```
 ```
