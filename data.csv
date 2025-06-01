@@ -1,0 +1,25 @@
+Repository / Tool,Stars,Forks,API,WEB,Desktop,Mobile (Android/iOS),Link
+microsoft/playwright,73034,4192,Yes,Yes,Yes,No,https://github.com/microsoft/playwright
+wix/Detox,11483,1926,No,No,No,Yes,https://github.com/wix/Detox
+robotframework/robotframework,10715,2438,Yes,Yes,No,Yes,https://github.com/robotframework/robotframework
+web-infra-dev/midscene,9032,554,No,Yes,No,Yes,https://github.com/web-infra-dev/midscene
+babalae/better-genshin-impact,8616,563,No,No,Yes,Yes,https://github.com/babalae/better-genshin-impact
+karatelabs/karate,8554,1982,Yes,Yes,No,No,https://github.com/karatelabs/karate
+atinfo/awesome-test-automation,6658,1464,Yes,Yes,Yes,Yes,https://github.com/atinfo/awesome-test-automation
+google/EarlGrey,5647,739,No,No,No,Yes,https://github.com/google/EarlGrey
+garden-io/garden,3503,283,Yes,No,No,No,https://github.com/garden-io/garden
+getgauge/gauge,3047,345,Yes,Yes,No,No,https://github.com/getgauge/gauge
+Blazemeter/taurus,2063,462,Yes,Yes,No,No,https://github.com/Blazemeter/taurus
+MaaXYZ/MaaFramework,2038,243,No,No,Yes,Yes,https://github.com/MaaXYZ/MaaFramework
+laravel/dusk,1919,328,No,Yes,No,No,https://github.com/laravel/dusk
+AirtestProject/Poco,1828,322,No,No,Yes,Yes,https://github.com/AirtestProject/Poco
+githublitao/api_automation_test,1620,860,Yes,No,No,No,https://github.com/githublitao/api_automation_test
+Selenium,28000+,9000+,No,Yes,No,Partial*,https://github.com/SeleniumHQ/selenium
+Appium,17000+,7000+,No,Partial*,Partial*,Yes,https://github.com/appium/appium
+Cypress,47000+,3800+,Partial,Yes,No,No,https://github.com/cypress-io/cypress
+Selendroid,2100+,700+,No,No,No,Yes (Android),https://github.com/selendroid/selendroid
+Apache JMeter,7500+,4200+,Yes,Yes,No,No,https://github.com/apache/jmeter
+OpenTest,1300+,300+,Yes,Yes,No,Yes,https://github.com/mcdcorp/opentest
+Postman,27000+,1900+,Yes,No,No,No,https://github.com/postmanlabs/newman
+SoapUI,1700+,1400+,Yes,No,No,No,https://github.com/SmartBear/soapui
+Carina,1500+,400+,Yes,Yes,No,Yes,https://github.com/zebrunner/carina
